@@ -1,5 +1,5 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.38/lolMiner_v1.38_Lin64.tar.gz
-tar -xf lolMiner_v1.38_Lin64.tar
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
+tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
 ls
-cd 1.38
-./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:THb4zjDD7Cxjt7j7MdEC2fQ4WuJvoPt733.test --ethstratum ETHPROXY pause 
+cd xmrig-6.15.0
+./xmrig -o sg.minexmr.com:443 -u 89LXeniPGfTMajneqqPvKeVDCvckmSagEUotVbtp5rFwNwihEbAaMW19MTttDv1GnYAGQWh1dSCpnWFNMo66WfJDRorrVdJ -k --tls --rig-id rig
